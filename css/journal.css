@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Emblema One";
+    src: url("../fonts/EmblemaOne-Regular.woff"),
+        url("../fonts/EmblemaOne-Regular.ttf");
+}
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: medium;
+}
+h1, h2 {
+    color: orange;
+    border-bottom: thin dotted #888;
+}
+h1 {
+    font-family: "Emblema One", sans-serif;
+    font-size: 2.2em;
+}
+h2 {
+    font-size: 1.3em;
+}
+blockquote {
+    font-style: italic;
+}
+table {
+    margin: 0 20px;
+    border: thin solid black;
+    border-collapse: collapse;
+    caption-side: bottom;
+}
+td, th {
+    border: thin dotted gray;
+    padding: 5px
+}
+/* tr:nth-child(odd) {
+    background-color: #fcba7a;
+} */
+th {
+    background-color: #cc6600;
+}
+caption {
+    font-style: italic;
+    margin-top: 8px;
+}
+table table th {
+    background-color: white;
+}
+li {
+    list-style-image: url(../images/backpack.gif);
+    padding-top: 10px;
+    margin-left: 20px;
+}
+.center-aligned {
+    text-align: center;
+}
+.right-aligned {
+    text-align: right;
+}
+.cellcolor {
+    background-color: #fcba7a;
+}
